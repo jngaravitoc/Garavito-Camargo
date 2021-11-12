@@ -1,17 +1,31 @@
 ---
 layout: page
-title: Outreach & Diversity
+title: Outreach & DEI
 permalink: /outreach/
 ---
 
 I am interested in the social side of Astronomy. I strongly believe that everyone
 should have access to Astronomy and everyone should feel respected and safe inside the
-Astronomy community. Below you can find outreach and diversity projects 
+Astronomy community. Below you can find outreach and DEI
 in which I have been involved in the past years. 
+
+## (Vision Cosmica Podcast (in Spanish))[https://cosmoquest.org/x/visioncosmica/]
+
+From time to time I also collaborate the with Vision Cosmica Podcast. A podast of astronomy in Spanish produced by (cosmoquest)[https://cosmoquest.org]. 
+
+## [RECA mentorship program](https://recastronomia.github.io/mentores/)
+
+Since August 2020 I've been leading a mentorship program for undergraduate physics and astronomy students in Colombia. The program aims to guide the students to reach their professional goals. These includes an acedemic career in astronomy, an educator career or a path within the indsutry. Until the now the program has had over 60 students!. 
+
+## [RECA internship program](https://recastronomia.github.io/internship/) 
+
+In summer 2021 I co-organized the astronomy internship program with the Colombian Network of Studetns (RECA). During the 10 week program 13 students in Colombia made research projects with Astronomers all over the world. This online program provided an opportunity for the students to work directly with Astronomers from all over the world. 
+
+[Press release from one f the main newspapers in Colombia](https://www.elespectador.com/ciencia/debut-en-la-gran-cancha-del-universo/)
 
 ## Diversity Journal Club at Steward Observatory:
 
-Along with [Samantha Scibelli](https://samscibelli.github.io/), Erin Maier, and
+I used to organized along with [Samantha Scibelli](https://samscibelli.github.io/), Erin Maier, and
 [Carlos Vargas](https://www.as.arizona.edu/people/postdoctoral/carlos-j-vargas) we organize
 the [diversity Journal Club](https://www.as.arizona.edu/diversity_coffee)
 at the Astronomy department in the Steward Observatory. This is a space created
