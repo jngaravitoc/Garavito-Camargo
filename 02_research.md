@@ -10,6 +10,8 @@ interactions, such as the Large Magellanic Cloud (LMC) and the Milky Way.  Below
 
 ### [Quantifying the impact of the Large Magellanic Cloud on the structure of the Milky Way’s dark matter halo using Basis Function Expansions](./mwlmc_bfe)
 
+In this paper, we used a method, call Basis Function Expansions (BFE), to quantify the perturbations created by the LMC on the MW's DM halo. We found that the LMC induces a strong dipole (l=1 mode) which corresponds to the displacement in position and velocity of the inner MW's halo (<30 kpc) relative to the outer halo.  As such, the shape of the MW's halo is not accurately captured by axisymmetric ellipsoids, such as oblate, triaxial, or prolate. On the other hand, the BFE accurately represents all the perturbations in the halo, including the DM wake induced by the LMC. We also implement a method to truncate the BFE by computing the S/N of each coefficient (see Appendix B). In the video below you can see a 3d render of the perturbations caused by the LMC. The contours represent DM overdensities in the halo. 
+
 <iframe src="https://player.vimeo.com/video/462912670" width="640" height="477"
 frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/462912670">The Galaxy response to the LMC</a> from
