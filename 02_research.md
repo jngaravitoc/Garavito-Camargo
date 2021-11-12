@@ -8,6 +8,12 @@ I am mainly interested in learning about the nature of Dark Matter
 from a galactic dynamics perspective. In particular, in satellite-host
 interactions, such as the Large Magellanic Cloud (LMC) and the Milky Way.  Below you can find a summary of the work I've done in the past. 
 
+### [The Clustering of Orbital Poles Induced by the LMC: Hints for the Origin of Planes of Satellites](https://arxiv.org/abs/2108.07321)
+
+| In this paper, we study the influence of the LMC in inducing co-rotation (clustering of orbital poles) patterns in the halo of the MW. The motivation behind this is that we know that a significant fraction of the MW satellite galaxies are co-rotating in a thin plane. Such a configuration seems to be rare in the Universe, that's why this is called the "planes of Satellites problem". We found that because the LMC moves the MW's inner halo (including the MW's disk) relative to the outer halo particles in the outer halo would have an apparent co-rotation motion. The co-rotation seen in the satellite galaxies of the MW could be evidence of this apparent motion. | <img align="middle" src="./images/LMC_sims_vpos_half.png" width="1200"/> |
+
+
+
 ### [Quantifying the impact of the Large Magellanic Cloud on the structure of the Milky Way’s dark matter halo using Basis Function Expansions](./mwlmc_bfe)
 
 In this paper, we used a method, call Basis Function Expansions (BFE), to quantify the perturbations created by the LMC on the MW's DM halo. We found that the LMC induces a strong dipole (l=1 mode) which corresponds to the displacement in position and velocity of the inner MW's halo (<30 kpc) relative to the outer halo.  As such, the shape of the MW's halo is not accurately captured by axisymmetric ellipsoids, such as oblate, triaxial, or prolate. On the other hand, the BFE accurately represents all the perturbations in the halo, including the DM wake induced by the LMC. We also implement a method to truncate the BFE by computing the S/N of each coefficient (see Appendix B). In the video below you can see a 3d render of the perturbations caused by the LMC. The contours represent DM overdensities in the halo. 
@@ -27,7 +33,7 @@ href="https://vimeo.com">Vimeo</a>.</p>
 
 ### The impact of gas bulk rotation on the Lyman alpha line:  [(Paper link)]("https://ui.adsabs.harvard.edu/abs/2014ApJ...795..120G/abstract")
 
-| <img align="middle" src="./images/lyman-alpha.png" width="1200"/>  | During my masters degree I ran radiative transfer simulations of the resonant line, Lyman alpha using [CLARA](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.3666F/abstract). In our paper, we showed how a rotating gasous halo around a galaxy shapes the observed morpohlogy of the Lyman$\alpha$ line. |
+| <img align="middle" src="./images/lyman-alpha.png" width="1200"/>  | During my masters degree I ran radiative transfer simulations of the resonant line, Lyman alpha using [CLARA](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.3666F/abstract). In our paper, we showed how a rotating gasous halo around a galaxy bradens the width of the Lyman alpha. |
 
 
 
