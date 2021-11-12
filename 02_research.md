@@ -10,7 +10,7 @@ interactions, such as the Large Magellanic Cloud (LMC) and the Milky Way.  Below
 
 ### [The Clustering of Orbital Poles Induced by the LMC: Hints for the Origin of Planes of Satellites](https://arxiv.org/abs/2108.07321)
 
-| In this paper, we study the influence of the LMC in inducing co-rotation (clustering of orbital poles) patterns in the halo of the MW. The motivation behind this is that we know that a significant fraction of the MW satellite galaxies are co-rotating in a thin plane. Such a configuration seems to be rare in the Universe, that's why this is called the "planes of Satellites problem". We found that because the LMC moves the MW's inner halo (including the MW's disk) relative to the outer halo particles in the outer halo would have an apparent co-rotation motion. The co-rotation seen in the satellite galaxies of the MW could be evidence of this apparent motion. | <img align="middle" src="./images/LMC_sims_vpos_half.png" width="1600"/> |
+| In this paper, we study the influence of the LMC in inducing co-rotation (clustering of orbital poles) patterns in the halo of the MW. The motivation behind this is that we know that a significant fraction of the MW satellite galaxies are co-rotating in a thin plane. Such a configuration seems to be rare in the Universe, that's why this is called the "planes of Satellites problem". We found that because the LMC moves the MW's inner halo (including the MW's disk) relative to the outer halo particles in the outer halo would have an apparent co-rotation motion. The co-rotation seen in the satellite galaxies of the MW could be evidence of this apparent motion. | <img align="middle" src="./images/LMC_sims_vpos_half.png" width="3000"/> |
 
 
 
