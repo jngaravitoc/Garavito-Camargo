@@ -11,10 +11,10 @@ permalink: /cv_pub/
 ## Recent Publications:
 
 1. [The Clustering of Orbital Poles Induced by the LMC: Hints for the Origin of Planes of Satellites](https://arxiv.org/abs/2108.07321)
-**Garavito-Camargo, Nicol´as**; Patel, Ekta; Besla, Gurtina; Price-Whelan, Adrian; Laporte, Chervin; G´omez,
+**Garavito-Camargo, Nicolás**; Patel, Ekta; Besla, Gurtina; Price-Whelan, Adrian; Laporte, Chervin; Gomez,
 Facundo A; Kathryn V. Johnston; ApJ accepted (2021).
 2. [Detection of the All-Sky Response of the Galactic Halo to the Magellanic Clouds](https://arxiv.org/abs/2104.09515)
-Conroy, Charlie; Naidu, Rohan P; **Garavito-Camargo; Nicol´as**; Besla, Gurtina; et al. Nature (2021).
+Conroy, Charlie; Naidu, Rohan P; **Garavito-Camargo; Nicolás**; Besla, Gurtina; et al. Nature (2021).
 3. [*"Quantifying the impact of the Large Magellanic Cloud on the structure of
    the Milky Way's dark matter halo using Basis Function
 Expansions"*](https://ui.adsabs.harvard.edu/#abs/2020arXiv201000816G/abstract),
