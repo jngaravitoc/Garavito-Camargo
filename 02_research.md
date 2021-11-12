@@ -5,11 +5,8 @@ permalink: /research/
 ---
 
 I am mainly interested in learning about the nature of Dark Matter
-from a galactic dynamics perspective. In particular, satellite-host
-interactions such as the Large Magellanic Cloud (LMC) and the Milky Way.  
-I've run numerical simulations and build MW's DM halo potentials using Basis
-Field Expansions (BFE) to accurately capture its time evolution in the last
-2 Gyrs. 
+from a galactic dynamics perspective. In particular, in satellite-host
+interactions, such as the Large Magellanic Cloud (LMC) and the Milky Way.  Below you can find a summary of the work I've done in the past. 
 
 ### [Quantifying the impact of the Large Magellanic Cloud on the structure of the Milky Way’s dark matter halo using Basis Function Expansions](./mwlmc_bfe)
 
