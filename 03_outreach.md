@@ -21,7 +21,7 @@ Since August 2020 I've been leading a mentorship program for undergraduate physi
 
 In summer 2021 I co-organized the astronomy internship program with the Colombian Network of Studetns (RECA). During the 10 week program 13 students in Colombia made research projects with Astronomers all over the world. This online program provided an opportunity for the students to work directly with Astronomers from all over the world. 
 
-[Press release from one f the main newspapers in Colombia](https://www.elespectador.com/ciencia/debut-en-la-gran-cancha-del-universo/)
+[Press release from one of the main newspapers in Colombia](https://www.elespectador.com/ciencia/debut-en-la-gran-cancha-del-universo/)
 
 ## Diversity Journal Club at Steward Observatory:
 
