@@ -6,7 +6,7 @@ permalink: /press/
 
 News articles about my research:
 
-
+- Sky & Telescope: [How our largest dwarf galaxy keeps other in line](https://skyandtelescope.org/astronomy-news/how-our-largest-dwarf-galaxy-keeps-the-others-in-line/)
 - JPL Nasa: [Astronomers Release New All-Sky Map of Milky Way's Outer Reaches](https://www.jpl.nasa.gov/news/astronomers-release-new-all-sky-map-of-milky-ways-outer-reaches)
 - Syfy Wire: [DARK MATTER COULD BE POWERING A GALAXY THAT ORBITS THE MILKY WAY UNTIL THEY COLLIDE](https://www.syfy.com/syfy-wire/dark-matter-powering-a-galaxy-orbiting-the-milky-way)
 - Phys.org: [Astronomers release new all-sky map of the Milky Way's outer reaches](https://phys.org/news/2021-04-astronomers-all-sky-milky-outer.html) 
