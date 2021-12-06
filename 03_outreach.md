@@ -11,7 +11,7 @@ in which I have been involved in the past years.
 
 ## [Vision Cosmica Podcast (in Spanish)](https://cosmoquest.org/x/visioncosmica/)
 
-From time to time I also collaborate the with Vision Cosmica Podcast. A podast of astronomy in Spanish produced by (cosmoquest](https://cosmoquest.org). 
+From time to time I also collaborate the with Vision Cosmica Podcast. A podast of astronomy in Spanish produced by [cosmoquest](https://cosmoquest.org). 
 
 ## [RECA mentorship program](https://recastronomia.github.io/mentores/)
 
