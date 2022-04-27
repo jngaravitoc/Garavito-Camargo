@@ -15,11 +15,11 @@ From time to time I also collaborate in the podcast: Vision Cosmica. A podcast a
 
 
 
-## [RECA mentorship program](https://recastronomia.github.io/mentores/)
+## [RECA mentorship program](https://www.astroreca.org/en/mentoring)
 
 Since August 2020 I've been leading a mentorship program for undergraduate physics and astronomy students in Colombia. The program aims to guide the students to reach their professional goals. These includes an acedemic career in astronomysneexe, an educator career or a path within the indsutry. Until the now the program has had over 60 students!. 
 
-## [RECA internship program](https://recastronomia.github.io/internship/) 
+## [RECA internship program](https://www.astroreca.org/en/internship) 
 
 In summer 2021 I co-organized the astronomy internship program with the Colombian Network of Studetns (RECA). During the 10 week program 13 students in Colombia made research projects with Astronomers all over the world. This online program provided an opportunity for the students to work directly with Astronomers from all over the world. 
 
