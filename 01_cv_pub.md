@@ -29,7 +29,7 @@ Patel, Ekta; Kallivayalil, Nitya; **Garavito-Camargo, Nicolas** et al. ApJ (2020
 
 
 For a complete list of publications please [click
-here](https://ui.adsabs.harvard.edu/search/filter_property_fq_property=AND&filter_property_fq_property=property%3A%22refereed%22&fq=%7B!type%3Daqp%20v%3D%24fq_property%7D&fq_property=(property%3A%22refereed%22)&q=%20%20author%3A%22garavito-camargo%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)
+here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-camargo%22&sort=date%20desc%2C%20bibcode%20desc)
 
 
 
