@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vizuals
+title: Visualizations
 permalink: /viz/
 ---
 
