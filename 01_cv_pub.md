@@ -9,10 +9,10 @@ permalink: /cv_pub/
 [curriculum vitae as pdf](../CV.pdf)
 
 ## Recent Publications:
-1. [On the stability of tidal streams in action space](https://arxiv.org/abs/2207.13481) 
- Arora, Arpit; Sanderson, Robyn E.; Panithanpaisal, Nondh; Wetzel, Andrew; **Garavito-Camargo, Nicolás**; Cunningham, Emily C.
-2. [Implications of the Milky Way travel velocity for dynamical mass estimates of the Local Group](https://arxiv.org/abs/2204.07173)
-   Chamberlain, Katie; Price-Whelan, Adrian; Besla, Gurtina; Cunningham, Emily; **Garavito-Camargo, Nicolas**; Penarrubia, Jorge; Petersen, Michael
+1. [*"On the stability of tidal streams in action space"*](https://arxiv.org/abs/2207.13481) 
+   Arora, Arpit; Sanderson, Robyn E.; Panithanpaisal, Nondh; Wetzel, Andrew; **Garavito-Camargo, Nicolás**; Cunningham, Emily C.
+2. [8"Implications of the Milky Way travel velocity for dynamical mass estimates of the Local Group"*](https://arxiv.org/abs/2204.07173)
+  Chamberlain, Katie; Price-Whelan, Adrian; Besla, Gurtina; Cunningham, Emily; **Garavito-Camargo, Nicolas**; Penarrubia, Jorge; Petersen, Michael
 3. [The Clustering of Orbital Poles Induced by the LMC: Hints for the Origin of Planes of Satellites](https://arxiv.org/abs/2108.07321)
 **Garavito-Camargo, Nicolás**; Patel, Ekta; Besla, Gurtina; Price-Whelan, Adrian; Laporte, Chervin; Gomez,
 Facundo A; Kathryn V. Johnston; ApJ accepted (2021).
