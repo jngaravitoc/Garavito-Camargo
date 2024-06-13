@@ -5,7 +5,7 @@ permalink: //
 ---
 
  <img
-     style= "margin-left: auto; margin-right: auto; width: 30%;"
+     style= "margin-left: auto; margin-right: auto; width: 60%;"
      class="profile-picture" 
      src="./ng_circular.jpg">
 
