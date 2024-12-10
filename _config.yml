@@ -6,13 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Nicolas Garavito Camargo
+title: Nicolás Garavito Camargo
 email: ngaravito@flatironinstitute.org
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "/Garavito-Camargo" # the subpath of your site, e.g. /blog
 url: "https://jngaravitoc.github.io" # the base hostname & protocol for your site
-twitter_username: garavito_nico
 github_username:  jngaravitoc
 
 # Build settings

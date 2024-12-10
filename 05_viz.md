@@ -4,9 +4,9 @@ title: Visualizations
 permalink: /viz/
 ---
 
-Below you can find movies and figures from my research.
+Below you can find movies and figures from my research.  
 
-### Dark Matter Wake induced by the Large Magellanic Cloud:
+### Dark Matter Wake induced by its most massive satellite the LMC:
 
 
 <div style="text-align: center">
@@ -26,7 +26,9 @@ Plotted are dark matter particles beyond 100 kpc
 <div style="text-align: center">
 <img align="middle" src="wake_3d.png" width="550"/>
 </div>
-3D density contrast of the Milky Way halo response in presence of the LMC.
+3D density contrast of the Milky Way halo response in the presence of the LMC.
+
+
 
  
 
