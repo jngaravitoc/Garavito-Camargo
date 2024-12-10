@@ -43,7 +43,7 @@ here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-cam
 - [The Clustering of Orbital Poles Induced by the LMC: Hints for the Origin of Planes of Satellites](https://ui.adsabs.harvard.edu/abs/2021ApJ...923..140G/abstract)
    **Garavito-Camargo, Nicolás**; Patel, Ekta; Besla, Gurtina; Price-Whelan, Adrian M.; Gómez, Facundo A.; Laporte, Chervin F. P.; Johnston, Kathryn V. *ApJ Volume 923, Issue 2, id.140, 17 pp*.
 
-### Stellar streams and DM subhalos
+### Stellar streams and DM subhalos:
 
 - [Segue 2 Recently Collided with the Cetus-Palca Stream: New Opportunities to Constrain Dark Matter in an Ultra-Faint Dwarf](https://ui.adsabs.harvard.edu/abs/2024arXiv240806415F/abstract).
  Foote, Hayden R.; Besla, Gurtina; **Garavito-Camargo, Nicolás**; Patel, Ekta; Thomas, Guillaume F.; Bonaca, Ana; Price-Whelan, Adrian M.; Peter, Annika H. G.; Zaritsky, Dennis; Conroy, Charlie. *ApJ in press.*
@@ -57,7 +57,7 @@ here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-cam
 - [On the Stability of Tidal Streams in Action Space](https://ui.adsabs.harvard.edu/abs/2022ApJ...939....2A/abstract)
   Arora, Arpit; Sanderson, Robyn E.; Panithanpaisal, Nondh; Cunningham, Emily C.; Wetzel, Andrew; **Garavito-Camargo, Nicolás**. *ApJ Volume 939, Issue 1, id.2, 18 pp*.
 
-### Methods and reconstruction of orbits of Local Group satellite galaxies
+### Methods and reconstruction of orbits of Local Group satellite galaxies:
 
 - [Efficient and Accurate Force Replay in Cosmological-baryonic Simulations](https://ui.adsabs.harvard.edu/abs/2024ApJ...977...23A/abstract).
   Arora, Arpit; Sanderson, Robyn; Regan, Christopher; **Garavito-Camargo, Nicolás**; Bregou, Emily; Panithanpaisal, Nondh; Wetzel, Andrew; Cunningham, Emily C.;
@@ -67,7 +67,7 @@ here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-cam
   Patel, Ekta; Kallivayalil, Nitya; **Garavito-Camargo, Nicolas**; Besla, Gurtina; Weisz, Daniel R.; van der Marel, Roeland P.; Boylan-Kolchin, Michael Pawlowski, Marcel S.; Gómez, Facundo A. *ApJ Volume 893, Issue 2, id.121, 26 pp*.
 
 
-### Dark Matter indirect and direct detection
+### Dark Matter indirect and direct detection:
 
 - [Dark matter distribution in Milky Way-analog galaxies](https://ui.adsabs.harvard.edu/abs/2024ApJ...971...69D/abstract). 
   Natanael Gomes-Oliveira, K. Menéndez-Delmestre, T. S. Gonçalves, D. C.
@@ -81,9 +81,9 @@ here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-cam
    Besla, G. ; Peter, A. H. G. ; **Garavito-Camargo, N**. *JCAP Issue 11, article id. 013*.
 
 
-### Disk Seismology
+### Galactic Disk Seismology:
 
-- [Galactoseismology in cosmological simulations: Vertical perturbations by dark matter, satellite galaxies and gas](https://ui.adsabs.harvard.edu/abs/2024A%26A...683A..47G/abstract).  Garcia-Conde. B, Antoja. T, Roca-Fabrega. S, G\'omez. G, Ramos. P,. **Garavito-Camargo. N**, Gomez-Flechoso, MA. *A&A Volume 683, id.A47, 19 pp*.
+- [Galactoseismology in cosmological simulations: Vertical perturbations by dark matter, satellite galaxies and gas](https://ui.adsabs.harvard.edu/abs/2024A%26A...683A..47G/abstract).  Garcia-Conde. B, Antoja. T, Roca-Fabrega. S, G\'omez. G, Ramos. P, **Garavito-Camargo. N**, Gomez-Flechoso, MA. *A&A Volume 683, id.A47, 19 pp*.
 
 - [Lopsided galaxies in a cosmological context: a new galaxy-halo connection](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.5853V/abstract).
    Varela-Lavin, Silvio; Gómez, Facundo A.; Tissera, Patricia B.; Besla, Gurtina; **Garavito-Camargo, Nicolás**; Marinacci, Federico; Laporte, Chervin F. P. *MNRAS Volume 523, Issue 4, pp.5853-5868*.
@@ -94,12 +94,23 @@ here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-cam
 - [ Response of the Milky Way's disc to the Large Magellanic Cloud in a first infall scenario ](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.1218L/abstract)
    Laporte, Chervin F. P.; Gómez, Facundo A.; Besla, Gurtina; Johnston, Kathryn V.; **Garavito-Camargo, Nicolas**. *MNRAS  Volume 473, Issue 1, p.1218-1230*
 
-### Milky Way Formation
+### Milky Way Formation:
+
 - [The proto-galaxy of Milky Way-mass haloes in the FIRE simulations](https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.9810H/abstract). 
  Horta, Danny; Cunningham, Emily C.; Sanderson, Robyn; Johnston, Kathryn V.; Deason, Alis; Wetzel, Andrew; McCluskey, Fiona; **Garavito-Camargo, Nicolás**;
-Necib, Lina; Faucher-Giguère, Claude-André; Arora, Arpit; Gandhi, Pratik J. *MNRAS Volume 527, Issue 4, pp.9810-9825.* 
+Necib, Lina; Faucher-Giguère, Claude-André; Arora, Arpit; Gandhi, Pratik J. *MNRAS Volume 527, Issue 4, pp.9810-9825.*
 
-### Software Development
+### High redshift Galaxies:
+- [The Extremely Luminous Quasar Survey in the Sloan Digital Sky Survey Footprint. II. The North Galactic Cap Sample](https://ui.adsabs.harvard.edu/abs/2018ApJ...863..144S/abstract)
+  Schindler, Jan-Torge; Fan, Xiaohui; McGreer, Ian D.; Yang, Jinyi; Wang, Feige; Green, Richard; **Garavito-Camargo, Nicolas**; Huang, Yun-Hsin; O'Donnell, Christine; Patej, Anna; Pucha, Ragadeepika; Rees, Jon M.; Spalding, Eckhart. *ApJ Volume 863, Issue 2, article id. 144, 23 pp.*.
+
+- [The Impact of Gas Bulk Rotation on the Lyα Line](https://ui.adsabs.harvard.edu/abs/2014ApJ...795..120G/abstract)
+  **Garavito-Camargo, Juan N.**; Forero-Romero, Jaime E. ; Dijkstra, Mark. *ApJ Volume 795, Issue 2, article id. 120, 12 pp.*
+
+- [ Modelling the gas kinematics of an atypical Ly α emitting compact dwarf galaxy ](https://ui.adsabs.harvard.edu/abs/2018MNRAS.474...12F/abstract)
+   Forero-Romero, Jaime E.; Gronke, Max; Remolina-Gutiérrez, Maria Camila; **Garavito-Camargo, Nicolás**; Dijkstra, Mark. *MNRAS Volume 474, Issue 1, p.12-19* 
+
+### Software Development:
 
 - [Generating synthetic star catalogs from simulated data for next-gen observatories with py-ananke](https://ui.adsabs.harvard.edu/abs/2024JOSS....9.6234T/abstract).  Adrien C. R. Thob, Robyn E. Sanderson, Andrew P. Eden, Farnik Nikakhtar, Nondh Panithanpaisal, **Nicolas Garavito-Camargo**, and Sanjib Sharma. *JOSS vol. 9, issue 102, id. 6234*.
 
