@@ -6,12 +6,11 @@ permalink: /cv_pub/
 
 ## Curriculum Vitae:
 
-[curriculum vitae as pdf](https://github.com/jngaravitoc/CV/blob/master/NGCcv.pdf)
+A pdf version of my CV can be downloaded [here](https://github.com/jngaravitoc/CV/blob/master/NGCcv.pdf) (*As of December 2024*)
 
 ## Publications:
 
-For a complete list of publications please [click
-here](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-camargo%22&sort=date%20desc%2C%20bibcode%20desc)
+For a complete list of publications please visit my [ADS library](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-camargo%22&sort=date%20desc%2C%20bibcode%20desc)
 
 ### DM Wakes and Halo response: 
 
