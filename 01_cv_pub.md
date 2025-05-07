@@ -6,7 +6,7 @@ permalink: /cv_pub/
 
 ## Curriculum Vitae:
 
-A pdf version of my CV can be downloaded [here](https://github.com/jngaravitoc/CV/blob/master/NGCcv.pdf) (*As of December 2024*)
+A pdf version of my CV can be downloaded [here](https://github.com/jngaravitoc/CV/blob/master/CV.pdf) (*As of December 2024*)
 
 ## Publications:
 
