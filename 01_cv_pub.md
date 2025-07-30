@@ -6,11 +6,11 @@ permalink: /cv_pub/
 
 ## Curriculum Vitae:
 
-A pdf version of my CV can be downloaded [here](https://github.com/jngaravitoc/CV/blob/master/CV.pdf) (*As of December 2024*)
+A PDF version of my CV can be downloaded [here](https://github.com/jngaravitoc/CV/blob/master/CV.pdf) (*As of December 2024*)
 
 ## Publications:
 
-For a complete list of publications please visit my [ADS library](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-camargo%22&sort=date%20desc%2C%20bibcode%20desc)
+For a complete list of publications, please visit my [ADS library](https://ui.adsabs.harvard.edu/search/p_=0&q=%20%20author%3A%22garavito-camargo%22&sort=date%20desc%2C%20bibcode%20desc)
 
 ### DM Wakes and Halo response: 
 
@@ -27,7 +27,7 @@ For a complete list of publications please visit my [ADS library](https://ui.ads
 - [Implications of the Milky Way Travel Velocity for Dynamical Mass Estimates of the Local Group](https://ui.adsabs.harvard.edu/abs/2023ApJ...942...18C/abstract)
   Chamberlain, Katie; Price-Whelan, Adrian M.; Besla, Gurtina; Cunningham, Emily C.; **Garavito-Camargo, Nicolás**; Peñarrubia, Jorge; Petersen, Michael S. *ApJ Volume 942, Issue 1, id.18, 10 pp*.
 
-- [Quantifying the Impact of the Large Magellanic Cloud on the Structure of the Milky Way's Dark Matter Halo Using Basis Function Expansions](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..109G/abstract). **Garavito-Camargo, Nicolás**; Besla, Gurtina; Laporte, Chervin F. P.; Price-Whelan, Adrian M.; Cunningham, Emily C.; Johnston, Kathryn V.; Weinberg, Martin ; Gómez, Facundo A. *ApJ Volume 919, Issue 2, id.109, 27 pp*.
+- [Quantifying the Impact of the Large Magellanic Cloud on the Structure of the Milky Way's Dark Matter Halo Using Basis Function Expansions](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..109G/abstract). **Garavito-Camargo, Nicolás**; Besla, Gurtina; Laporte, Chervin F. P.; Price-Whelan, Adrian M.; Cunningham, Emily C.; Johnston, Kathryn V.; Weinberg, Martin; Gómez, Facundo A. *ApJ Volume 919, Issue 2, id.109, 27 pp*.
 
 - [All-sky dynamical response of the Galactic halo to the Large Magellanic Cloud](https://ui.adsabs.harvard.edu/abs/2021Natur.592..534C/abstract)
   Conroy, Charlie; Naidu, Rohan P.; **Garavito-Camargo, Nicolás**; Besla, Gurtina; Zaritsky, Dennis; Bonaca, Ana; Johnson, Benjamin D. *Nature, Volume 592, Issue 7855, p.534-536.*
