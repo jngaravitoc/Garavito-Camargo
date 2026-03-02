@@ -7,9 +7,9 @@
 
 # Site settings
 title: Nicolás Garavito Camargo
-email: ngaravito@flatironinstitute.org
+email: garavito@umd.edu
 description: >
-  Postdoctoral fellow at the Center for Computational Astrophysics studying
+  NASA Einstein Fellow at the University of Maryland studying
   Milky Way dynamics and dark matter.
 baseurl: "/Garavito-Camargo" # the subpath of your site, e.g. /blog
 url: "https://jngaravitoc.github.io" # the base hostname & protocol for your site

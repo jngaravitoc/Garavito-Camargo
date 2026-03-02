@@ -10,4 +10,4 @@ permalink: /
 
 
 
-Hi! I’m a postdoctoral fellow at the [Center for Computational Astrophysics (CCA)](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/) at the Flatiron Institute. I study the dynamics of the Milky Way and its satellite galaxies to understand how dark matter is distributed in the galaxy. To do this I make idealized N-body simulations and analyze zoom-in cosmological simulations, such as FIRE or Auriga. I also use Basis Function Expansions to understand the out-of-equilibrium dynamical regimes of Dark Matter halos.
+Hi! I'm a NASA Einstein Fellow at the [University of Maryland](https://www.astro.umd.edu/). I study the dynamics of the Milky Way and its satellite galaxies to understand how Dark Matter is distributed in the Galaxy. To do this, I make idealized N-body simulations and analyze zoom-in cosmological simulations, such as FIRE or Auriga. I also make use of Basis Function Expansions to understand and model the evolution of Dark Matter halos.
