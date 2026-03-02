@@ -8,16 +8,18 @@
 # Site settings
 title: Nicolás Garavito Camargo
 email: ngaravito@flatironinstitute.org
-description: > # this means to ignore newlines until "baseurl:"
-
+description: >
+  Postdoctoral fellow at the Center for Computational Astrophysics studying
+  Milky Way dynamics and dark matter.
 baseurl: "/Garavito-Camargo" # the subpath of your site, e.g. /blog
 url: "https://jngaravitoc.github.io" # the base hostname & protocol for your site
+twitter_username: garavito_nico
 github_username:  jngaravitoc
 
 # Build settings
+include: ['_pages']
 sass:
     sass_dir: _sass
-    include: ['_pages']
 
 exclude: [vendor]
 markdown: kramdown
