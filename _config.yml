@@ -13,7 +13,6 @@ description: >
   Milky Way dynamics and dark matter.
 baseurl: "/Garavito-Camargo" # the subpath of your site, e.g. /blog
 url: "https://jngaravitoc.github.io" # the base hostname & protocol for your site
-twitter_username: garavito_nico
 github_username:  jngaravitoc
 
 # Build settings
