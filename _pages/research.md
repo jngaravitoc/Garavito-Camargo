@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
+nav_order: 2
 ---
 
 I am mainly interested in learning about the nature of Dark Matter
@@ -10,7 +11,7 @@ interactions, such as the Large Magellanic Cloud (LMC) and the Milky Way.  Below
 
 ### [The Clustering of Orbital Poles Induced by the LMC: Hints for the Origin of Planes of Satellites](https://arxiv.org/abs/2108.07321)
 
-| In this paper, we study the influence of the LMC in inducing co-rotation (clustering of orbital poles) patterns in the halo of the MW. The motivation behind this is that we know that a significant fraction of the MW satellite galaxies are co-rotating in a thin plane. Such a configuration seems to be rare in the Universe, which is why this is known as the "planes of Satellites problem". We found that because the LMC moves the MW's inner halo (including the MW's disk) relative to the outer halo, particles in the outer halo would have an apparent co-rotation motion. The co-rotation seen in the satellite galaxies of the MW could be evidence of this apparent motion. | <img align="middle" src="{{ site.baseurl }}/images/LMC_sims_vpos_half.png" width="3000"/> |
+| In this paper, we study the influence of the LMC in inducing co-rotation (clustering of orbital poles) patterns in the halo of the MW. The motivation behind this is that we know that a significant fraction of the MW satellite galaxies are co-rotating in a thin plane. Such a configuration seems to be rare in the Universe, which is why this is known as the "planes of Satellites problem". We found that because the LMC moves the MW's inner halo (including the MW's disk) relative to the outer halo, particles in the outer halo would have an apparent co-rotation motion. The co-rotation seen in the satellite galaxies of the MW could be evidence of this apparent motion. | <img src="{{ site.baseurl }}/images/LMC_sims_vpos_half.png" alt="Orbital poles clustering from LMC" style="max-width:100%;"/> |
 
 
 
@@ -18,8 +19,9 @@ interactions, such as the Large Magellanic Cloud (LMC) and the Milky Way.  Below
 
 In this paper, we used a method called Basis Function Expansions (BFE) to quantify the perturbations created by the LMC on the MW's DM halo. We found that the LMC induces a strong dipole (l=1 mode) which corresponds to the displacement in position and velocity of the inner MW's halo (<30 kpc) relative to the outer halo.  As such, the shape of the MW's halo is not accurately captured by axisymmetric ellipsoids, such as oblate, triaxial, or prolate. On the other hand, the BFE accurately represents all the perturbations in the halo, including the DM wake induced by the LMC. We also implement a method to truncate the BFE by computing the S/N of each coefficient (see Appendix B). In the video below you can see a 3d render of the perturbations caused by the LMC. The contours represent DM overdensities in the halo. 
 
-<iframe src="https://player.vimeo.com/video/462912670" width="640" height="477"
-frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+<iframe src="https://player.vimeo.com/video/462912670" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 <p><a href="https://vimeo.com/462912670">The Galaxy response to the LMC</a> from
 <a href="https://vimeo.com/user124121478">Nicolas Garavito</a> on <a
 href="https://vimeo.com">Vimeo</a>.</p>
@@ -28,12 +30,12 @@ href="https://vimeo.com">Vimeo</a>.</p>
 ### [Hunting for the Dark Matter Wake induced by the Large Magellanic Cloud](https://ui.adsabs.harvard.edu/abs/2019arXiv190205089G/abstract) 
 ### [(Paper link)](https://ui.adsabs.harvard.edu/abs/2019arXiv190205089G/abstract)
 
-| <img align="middle" src="{{ site.baseurl }}/research/images/wake_2d.png" width="1600"/> | The LMC is the most massive satellite of the Milky Way (MW), roughly a tenth of its mass, and it is currently on its first passage around the MW. Such a massive satellite generates the strongest Dark Matter Wake in the Milky Way. In this paper, we present a suite of eight high-resolution (mp = 1.2 x 10^4 Msun) that reproduce the MW-LMC interaction since the LMC just entered the MW's DM halo ~2 Gyr ago.  We quantified the density and kinematic perturbation produced by the Dark Matter Wake. | 
+| <img src="{{ site.baseurl }}/research/images/wake_2d.png" alt="Dark matter wake" style="max-width:100%;"/> | The LMC is the most massive satellite of the Milky Way (MW), roughly a tenth of its mass, and it is currently on its first passage around the MW. Such a massive satellite generates the strongest Dark Matter Wake in the Milky Way. In this paper, we present a suite of eight high-resolution (mp = 1.2 x 10^4 Msun) that reproduce the MW-LMC interaction since the LMC just entered the MW's DM halo ~2 Gyr ago.  We quantified the density and kinematic perturbation produced by the Dark Matter Wake. | 
 
 
 ### The impact of gas bulk rotation on the Lyman alpha line:  [(Paper link)](https://ui.adsabs.harvard.edu/abs/2014ApJ...795..120G/abstract)
 
-| <img align="middle" src="{{ site.baseurl }}/research/images/lyman-alpha.png" width="1200"/>  | During my masters degree I ran radiative transfer simulations of the resonant line, Lyman alpha using [CLARA](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.3666F/abstract). In our paper, we showed how a rotating gaseous halo around a galaxy broadens the width of the Lyman alpha line. As such, the width of the line could be indicative of the rotational velocity of the galaxy. |
+| <img src="{{ site.baseurl }}/research/images/lyman-alpha.png" alt="Lyman-alpha line profile" style="max-width:100%;"/>  | During my masters degree I ran radiative transfer simulations of the resonant line, Lyman alpha using [CLARA](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.3666F/abstract). In our paper, we showed how a rotating gaseous halo around a galaxy broadens the width of the Lyman alpha line. As such, the width of the line could be indicative of the rotational velocity of the galaxy. |
 
 
 

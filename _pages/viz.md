@@ -2,6 +2,7 @@
 layout: page
 title: Visualizations
 permalink: /viz/
+nav_order: 5
 ---
 
 Below you can find movies and figures I have made for several research projects. 

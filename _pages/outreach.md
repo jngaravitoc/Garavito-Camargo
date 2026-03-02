@@ -2,6 +2,7 @@
 layout: page
 title: Outreach & DEI
 permalink: /outreach/
+nav_order: 3
 ---
 
 I am interested in the social side of Astronomy. I strongly believe that everyone

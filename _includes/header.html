@@ -2,9 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} </a>
-    <br />
-    <br />
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -16,8 +14,9 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
+        {% assign sorted_pages = site.pages | sort: "nav_order" %}
+        {% for my_page in sorted_pages %}
+          {% if my_page.title and my_page.nav_order %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}

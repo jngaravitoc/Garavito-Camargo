@@ -2,6 +2,7 @@
 layout: page
 title: Press
 permalink: /press/
+nav_order: 4
 ---
 
 News articles about my research:
