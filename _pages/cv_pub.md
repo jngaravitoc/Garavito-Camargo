@@ -14,7 +14,6 @@ For a complete list of publications, please visit my [ADS library](https://ui.ad
 
 ### Highlighted Papers
 
-*First-author, student-led, and second-author publications.*
 
 - [Shaping the Milky Way. II. The dark matter halo's response to the LMC's passage in a cosmological context](https://ui.adsabs.harvard.edu/abs/2025arXiv251102031D/abstract).
   Darragh-Ford, E.; **Garavito-Camargo, N.**; Arora, A.; Wechsler, R. H.; Mansfield, P.; Besla, G.; Petersen, M. S.; Weinberg, M. D.; Varela-Lavin, S.; Buch, D.; et al. *arXiv, November 2025.*
@@ -42,6 +41,9 @@ For a complete list of publications, please visit my [ADS library](https://ui.ad
 
 - [Quantifying the Stellar Halo's Response to the LMC's Infall with Spherical Harmonics](https://ui.adsabs.harvard.edu/abs/2020ApJ...898....4C/abstract).
   Cunningham, E. C.; **Garavito-Camargo, N.**; Deason, A. J.; Johnston, K. V.; Erkal, D.; Laporte, C. F. P.; Besla, G.; Luger, R.; Sanderson, R. E. *ApJ, July 2020.*
+
+- [The Orbital Histories of Magellanic Satellites Using Gaia DR2 Proper Motions](https://ui.adsabs.harvard.edu/abs/2020ApJ...893..121P/abstract).
+  Patel, E.; Kallivayalil, N.; **Garavito-Camargo, N.**; Besla, G.; Weisz, D. R.; van der Marel, R. P.; Boylan-Kolchin, M.; Pawlowski, M. S.; Gómez, F. A. *ApJ, April 2020.*
 
 - [Hunting for the Dark Matter Wake Induced by the Large Magellanic Cloud](https://ui.adsabs.harvard.edu/abs/2019ApJ...884...51G/abstract).
   **Garavito-Camargo, N.**; Besla, G.; Laporte, C. F. P.; Johnston, K. V.; Gómez, F. A.; Watkins, L. L. *ApJ, October 2019.*
