@@ -53,19 +53,23 @@ For a complete list of publications, please visit my [ADS library](https://ui.ad
 
 ### Recent Papers
 
-- [Mapping the Distorted Dark Matter Distribution of the LMC-SMC System Prior to Milky Way Infall with Basis Function Expansions](https://ui.adsabs.harvard.edu/abs/2026arXiv260100946F/abstract).
-  Foote, H. R.; Rathore, H.; Besla, G.; **Garavito-Camargo, N.**; Patel, E.; Petersen, M. S.; Weinberg, M. D.; Gómez, F. A.; Laporte, C. F. P. *arXiv, January 2026.*
 
-- [A simulation-based inference approach to the dynamics of the MW–LMC system — validation](https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f2111B/abstract).
+- [Mapping the Distorted Dark Matter Distribution of the LMC─SMC System Prior to Milky Way Infall with Basis Function Expansions](https://ui.adsabs.harvard.edu/abs/2026ApJ..1001...37F/abstract).
+  Foote, H. R.; Rathore, H.; Besla, G.; **Garavito-Camargo, N.**; Patel, E.; Petersen, M. S.; Weinberg, M. D.; Gómez, F. A.; Laporte, C. F. P.; EXP Collaboration *ApJ, April 2026.*
+
+- [Stellar Birth Radii in the LMC: Insights into Chemodynamics, Radial Migration, and Star Formation across the Disk](https://ui.adsabs.harvard.edu/abs/2026AJ....171..230L/abstract).
+  Lu, Y.; Garver, B.; Nidever, D. L.; Povick, J. T.; **Garavito-Camargo, N.**; Cioni, M.-R. L.; Horta, D. *AJ, April 2026.*
+
+- [Quantifying the Milky Way, LMC and their interaction using all-sky kinematics of outer halo stars](https://ui.adsabs.harvard.edu/abs/2026arXiv260308788B/abstract).
+  Brooks, R. A. N.; Sanders, J. L.; Dillamore, A. M.; **Garavito-Camargo, N.**; Chandra, V.; Price-Whelan, A. M.; Cargile, P. *arXiv, March 2026.*
+
+- [A simulation-based inference approach to the dynamics of the MW─LMC system - validation](https://ui.adsabs.harvard.edu/abs/2026MNRAS.545f2111B/abstract).
   Brooks, R. A. N.; Sanders, J. L.; Dillamore, A. M.; **Garavito-Camargo, N.**; Price-Whelan, A. M. *MNRAS, January 2026.*
 
 - [Shaping the Milky Way. II. The dark matter halo's response to the LMC's passage in a cosmological context](https://ui.adsabs.harvard.edu/abs/2025arXiv251102031D/abstract).
   Darragh-Ford, E.; **Garavito-Camargo, N.**; Arora, A.; Wechsler, R. H.; Mansfield, P.; Besla, G.; Petersen, M. S.; Weinberg, M. D.; Varela-Lavin, S.; Buch, D.; et al. *arXiv, November 2025.*
 
-- [Stellar Birth Radii in the LMC: Insights into Chemodynamics, Radial Migration, and Star Formation Across the Disk](https://ui.adsabs.harvard.edu/abs/2025arXiv251102231L/abstract).
-  Lu, Y.; Garver, B.; Nidever, D. L.; Povick, J. T.; **Garavito-Camargo, N.**; Cioni, M.-R. L.; Horta, D. *arXiv, November 2025.*
-
-- [The Milky Way – Large Magellanic Cloud Interaction with Simulation Based Inference](https://ui.adsabs.harvard.edu/abs/2025arXiv251004735B/abstract).
+- [The Milky Way - Large Magellanic Cloud Interaction with Simulation Based Inference](https://ui.adsabs.harvard.edu/abs/2025arXiv251004735B/abstract).
   Brooks, R. A. N.; Sanders, J. L.; Chandra, V.; **Garavito-Camargo, N.**; Dillamore, A. M.; Price-Whelan, A. M.; Ting, Y.-S. *arXiv, October 2025.*
 
 - [Shaping the Milky Way: The Interplay of Mergers and Cosmic Filaments](https://ui.adsabs.harvard.edu/abs/2025ApJ...988..190A/abstract).
@@ -74,26 +78,6 @@ For a complete list of publications, please visit my [ADS library](https://ui.ad
 - [All-sky Kinematics of the Distant Halo: The Reflex Response to the LMC](https://ui.adsabs.harvard.edu/abs/2025ApJ...988..156C/abstract).
   Chandra, V.; Naidu, R. P.; Conroy, C.; **Garavito-Camargo, N.**; Laporte, C.; Bonaca, A.; Cargile, P. A.; Cunningham, E.; Han, J. J.; Johnson, B. D.; et al. *ApJ, August 2025.*
 
-- [The M31–M33 Interaction: Impact on M31's Center-of-mass Motion and Satellite Orbits](https://ui.adsabs.harvard.edu/abs/2025ApJ...985..121P/abstract).
+- [The M31─M33 Interaction: Impact on M31's Center-of-mass Motion and Satellite Orbits](https://ui.adsabs.harvard.edu/abs/2025ApJ...985..121P/abstract).
   Patel, E.; **Garavito-Camargo, N.**; Escala, I. *ApJ, May 2025.*
-
-- [The All-sky Impact of the LMC on the Milky Way Circumgalactic Medium](https://ui.adsabs.harvard.edu/abs/2025ApJ...983..151C/abstract).
-  Carr, C.; Bryan, G. L.; **Garavito-Camargo, N.**; Besla, G.; Setton, D. J.; Johnston, K. V.; Su, K.-Y. *ApJ, April 2025.*
-
-- [The Distant Milky Way Halo from the Southern Hemisphere: Characterization of the LMC-induced Dynamical Friction Wake](https://ui.adsabs.harvard.edu/abs/2025ApJ...983...83C/abstract).
-  Cavieres, M.; Chanamé, J.; Navarrete, C.; Ordenes-Briceño, Y.; **Garavito-Camargo, N.**; Besla, G.; Hempel, M.; Vivas, A. K.; Gómez, F. *ApJ, April 2025.*
-
-- [Hypervelocity Stars Trace a Supermassive Black Hole in the Large Magellanic Cloud](https://ui.adsabs.harvard.edu/abs/2025ApJ...982..188H/abstract).
-  Han, J. J.; El-Badry, K.; Lucchini, S.; Hernquist, L.; Brown, W.; **Garavito-Camargo, N.**; Conroy, C.; Sari, R. *ApJ, April 2025.*
-
-- [Where do High-Velocity Dark Matter Particles come from in the Milky Way?](https://ui.adsabs.harvard.edu/abs/2025arXiv250217565D/abstract).
-  DeBrae, A.; Behroozi, P.; **Garavito-Camargo, N.** *arXiv, February 2025.*
-
-- [Segue 2 Recently Collided with the Cetus-Palca Stream: New Opportunities to Constrain Dark Matter in an Ultra-faint Dwarf](https://ui.adsabs.harvard.edu/abs/2025ApJ...979..171F/abstract).
-  Foote, H. R.; Besla, G.; **Garavito-Camargo, N.**; Patel, E.; Thomas, G. F.; Bonaca, A.; Price-Whelan, A. M.; Peter, A. H. G.; Zaritsky, D.; Conroy, C. *ApJ, February 2025.*
-
-- [LMC Calls, Milky Way Halo Answers: Disentangling the Effects of the MW–LMC Interaction on Stellar Stream Populations](https://ui.adsabs.harvard.edu/abs/2025ApJ...978...79B/abstract).
-  Brooks, R. A. N.; **Garavito-Camargo, N.**; Johnston, K. V.; Price-Whelan, A. M.; Sanders, J. L.; Lilleengen, S. *ApJ, January 2025.*
-
-
 
