@@ -9,6 +9,9 @@ nav_order: 0
 <img align="middle" src="{{ site.baseurl }}/images/profile/ng_circular.jpg" width="250"/>
 </div>
 
-
-
-Hi! I'm a NASA Einstein Fellow at the [University of Maryland](https://www.astro.umd.edu/). I study the dynamics of the Milky Way and its satellite galaxies to understand how Dark Matter is distributed in the Galaxy. To do this, I make idealized N-body simulations and analyze zoom-in cosmological simulations, such as FIRE or Auriga. I also make use of Basis Function Expansions to understand and model the evolution of Dark Matter halos.
+Hi! I'm an assistant professor at the [Institute of Astrophysics](https://astro.uc.cl/) at 
+Universidad Católica de Chile in Santiago. I develop N-body simulations and computational methods 
+to study how galaxies, like our own Milky Way, assemble over cosmic time. I'm especially interested 
+in the most abundant component of galaxies, dark matter, and how it's distributed within galaxies. 
+Take a look at my [research page](https://jngaravitoc.github.io/Garavito-Camargo/research/) for a 
+summary of the past and current projects I am working on.  
