@@ -1,14 +1,21 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post page-with-toc">
 
   <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
+    <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content">
-    {{ content }}
+  <div class="content-shell">
+    <nav class="page-toc" aria-label="On this page" hidden>
+      <h2 class="page-toc-title">On This Page</h2>
+      <ol class="page-toc-list"></ol>
+    </nav>
+
+    <div class="post-content" data-toc-content>
+      {{ content }}
+    </div>
   </div>
 
 </article>

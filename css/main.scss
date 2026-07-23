@@ -3,27 +3,36 @@
 ---
 @charset "utf-8";
 
+@use "sass:math";
+
 
 
 // Our variables
-$base-font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
+$base-font-family: "Source Sans 3", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$heading-font-family: "Merriweather", Georgia, "Times New Roman", serif;
+$base-font-size:   19px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$small-font-size:  $base-font-size * 0.9;
+$base-line-height: 1.7;
 
-$spacing-unit:     30px;
+$spacing-unit:     32px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #009966;
+$text-color:       #1f2428;
+$background-color: #f6f4ef;
+$surface-color:    #ffffff;
+$brand-color:      #0f5a7a;
+$accent-color:     #8b5e34;
+$focus-color:      #ad5d0a;
 
-$grey-color:       #828282;
+$grey-color:       #5f6770;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1040px;
+$measure-width:    68ch;
+$radius-md:        10px;
+$shadow-soft:      0 10px 24px rgba(24, 30, 36, 0.08);
 
 $on-palm:          600px;
 $on-laptop:        800px;

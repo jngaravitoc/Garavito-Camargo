@@ -4,20 +4,20 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
+    <nav class="site-nav" aria-label="Primary">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation menu">
         <svg viewBox="0 0 18 15">
           <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
           <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
-      </a>
+      </button>
 
-      <div class="trigger">
+      <div class="trigger" id="site-menu">
         {% assign sorted_pages = site.pages | sort: "nav_order" %}
         {% for my_page in sorted_pages %}
           {% if my_page.title and my_page.nav_order %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link{% if page.url == my_page.url %} is-current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}"{% if page.url == my_page.url %} aria-current="page"{% endif %}>{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
@@ -26,3 +26,111 @@
   </div>
 
 </header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var slugify = function (text) {
+      return (text || '')
+        .toLowerCase()
+        .trim()
+        .replace(/[\s\W-]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+    };
+
+    var nav = document.querySelector('.site-nav');
+    if (nav) {
+      var button = nav.querySelector('.menu-toggle');
+      var menu = nav.querySelector('.trigger');
+      if (button && menu) {
+        var closeMenu = function () {
+          nav.classList.remove('is-open');
+          button.setAttribute('aria-expanded', 'false');
+        };
+
+        button.addEventListener('click', function () {
+          var isOpen = nav.classList.toggle('is-open');
+          button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+
+        document.addEventListener('click', function (event) {
+          if (!nav.contains(event.target)) {
+            closeMenu();
+          }
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape') {
+            closeMenu();
+          }
+        });
+
+        window.addEventListener('resize', function () {
+          if (window.matchMedia('(min-width: 601px)').matches) {
+            closeMenu();
+          }
+        });
+      }
+    }
+
+    var articleHeadings = document.querySelectorAll('#main-content .post-content h2, #main-content .post-content h3, #main-content .post-content h4');
+    articleHeadings.forEach(function (heading) {
+      if (!heading.id) {
+        var generatedId = slugify(heading.textContent);
+        if (generatedId) {
+          heading.id = generatedId;
+        }
+      }
+
+      if (!heading.querySelector('.section-anchor')) {
+        var anchor = document.createElement('a');
+        anchor.className = 'section-anchor';
+        anchor.href = '#' + heading.id;
+        anchor.setAttribute('aria-label', 'Link to this section');
+        anchor.textContent = '#';
+        heading.appendChild(anchor);
+      }
+    });
+
+    var tocElements = document.querySelectorAll('.page-toc');
+    tocElements.forEach(function (tocElement) {
+      var article = tocElement.closest('.post');
+      if (!article) return;
+
+      var content = article.querySelector('[data-toc-content]');
+      var list = tocElement.querySelector('.page-toc-list');
+      if (!content || !list) return;
+
+      var tocHeadings = content.querySelectorAll('h2[id], h3[id]');
+      if (tocHeadings.length < 2) {
+        return;
+      }
+
+      tocHeadings.forEach(function (heading) {
+        var item = document.createElement('li');
+        item.className = heading.tagName === 'H3' ? 'toc-level-3' : 'toc-level-2';
+
+        var link = document.createElement('a');
+        link.href = '#' + heading.id;
+        link.textContent = heading.textContent
+          .replace(/Link to this section/gi, '')
+          .replace(/#+\s*$/, '')
+          .trim();
+
+        item.appendChild(link);
+        list.appendChild(item);
+      });
+
+      tocElement.hidden = false;
+    });
+
+    var contentImages = document.querySelectorAll('#main-content .post-content img');
+    contentImages.forEach(function (image, index) {
+      if (!image.hasAttribute('loading')) {
+        image.setAttribute('loading', index < 1 ? 'eager' : 'lazy');
+      }
+      if (!image.hasAttribute('decoding')) {
+        image.setAttribute('decoding', 'async');
+      }
+    });
+  });
+</script>
