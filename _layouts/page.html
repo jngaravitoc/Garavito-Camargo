@@ -8,10 +8,12 @@ layout: default
   </header>
 
   <div class="content-shell">
+    {% if page.toc != false %}
     <nav class="page-toc" aria-label="On this page" hidden>
       <h2 class="page-toc-title">On This Page</h2>
       <ol class="page-toc-list"></ol>
     </nav>
+    {% endif %}
 
     <div class="post-content" data-toc-content>
       {{ content }}

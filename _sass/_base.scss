@@ -258,6 +258,11 @@ pre {
     max-width: 100%;
 }
 
+.full-width-media img {
+    width: 100%;
+    display: block;
+}
+
 .post-content h2,
 .post-content h3,
 .post-content h4 {

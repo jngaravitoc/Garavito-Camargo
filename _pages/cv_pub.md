@@ -3,6 +3,7 @@ layout: page
 title: CV & Publications
 permalink: /cv_pub/
 nav_order: 1
+toc: false
 ---
 
 ## Curriculum Vitae:
