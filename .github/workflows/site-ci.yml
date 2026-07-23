@@ -1,0 +1,63 @@
+name: Site CI
+
+on:
+  push:
+    branches:
+      - gh-pages
+      - main
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1
+        with:
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: |
+          set -euo pipefail
+          bundle exec jekyll build
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python dependencies for ADS updater
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run ADS updater unit tests
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s tests -p "test_*.py"
+
+      - name: Validate ADS updater (dry-run)
+        if: ${{ secrets.ADS_TOKEN != '' }}
+        env:
+          ADS_TOKEN: ${{ secrets.ADS_TOKEN }}
+        run: |
+          set -euo pipefail
+          python scripts/update_recent_pubs.py --months 12 --dry-run > /dev/null
+
+      - name: Skip ADS updater validation when token is unavailable
+        if: ${{ secrets.ADS_TOKEN == '' }}
+        run: |
+          echo "ADS_TOKEN is not available in this context; skipping ADS dry-run validation."
