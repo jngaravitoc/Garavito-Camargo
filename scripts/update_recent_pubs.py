@@ -30,16 +30,22 @@ import argparse
 import os
 import re
 import sys
+import tempfile
 from datetime import datetime, timedelta
-from urllib.parse import urlencode
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # ── ADS API configuration ────────────────────────────────────────────────────
 ADS_SEARCH_URL = "https://api.adsabs.harvard.edu/v1/search/query"
 FIELDS = "title,author,pubdate,pub,bibcode,doctype,year"
 QUERY = 'author:"garavito-camargo" collection:astronomy'
 ROWS = 200
+DEFAULT_TIMEOUT = 30
+MAX_RETRIES = 3
+BACKOFF_FACTOR = 1
+RETRY_STATUS_CODES = (429, 500, 502, 503, 504)
 
 # ── File paths (relative to repo root) ───────────────────────────────────────
 REPO_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir)
@@ -53,7 +59,39 @@ RECENT_HEADER = "### Recent Papers"
 # ADS helpers
 # ─────────────────────────────────────────────────────────────────────────────
 
-def fetch_papers(token, cutoff_date):
+def build_session():
+    """Return a requests session configured with retry/backoff behavior."""
+    retry = Retry(
+        total=MAX_RETRIES,
+        backoff_factor=BACKOFF_FACTOR,
+        status_forcelist=RETRY_STATUS_CODES,
+        allowed_methods=("GET",),
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session = requests.Session()
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
+def parse_ads_response(data):
+    """Validate ADS response shape and return (num_found, docs)."""
+    response = data.get("response")
+    if not isinstance(response, dict):
+        raise RuntimeError("ADS response missing 'response' object")
+
+    num_found = response.get("numFound")
+    docs = response.get("docs")
+
+    if not isinstance(num_found, int):
+        raise RuntimeError("ADS response has invalid 'numFound'")
+    if not isinstance(docs, list):
+        raise RuntimeError("ADS response has invalid 'docs' list")
+
+    return num_found, docs
+
+
+def fetch_papers(token, cutoff_date, timeout=DEFAULT_TIMEOUT):
     """
     Fetch papers from ADS published on or after *cutoff_date*.
     Returns a list of paper dicts sorted by date descending.
@@ -74,17 +112,22 @@ def fetch_papers(token, cutoff_date):
 
     docs = []
     num_found = None
+    session = build_session()
 
     while num_found is None or len(docs) < num_found:
         if docs:
             params["start"] = len(docs)
-        url = f"{ADS_SEARCH_URL}?{urlencode(params)}"
-        resp = requests.get(url, headers=headers)
+        resp = session.get(
+            ADS_SEARCH_URL,
+            params=params,
+            headers=headers,
+            timeout=timeout,
+        )
         resp.raise_for_status()
         data = resp.json()
-        num_found = data["response"]["numFound"]
-        docs.extend(data["response"]["docs"])
-        if not data["response"]["docs"]:
+        num_found, response_docs = parse_ads_response(data)
+        docs.extend(response_docs)
+        if not response_docs:
             break
 
     # Sort by pubdate descending
@@ -240,6 +283,25 @@ def read_cv_pub(path):
         return f.read()
 
 
+def write_text_atomic(path, content):
+    """Write text atomically to avoid partial updates on failure."""
+    directory = os.path.dirname(os.path.abspath(path))
+    tmp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=directory,
+            delete=False,
+        ) as tmp_file:
+            tmp_file.write(content)
+            tmp_path = tmp_file.name
+        os.replace(tmp_path, path)
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            os.remove(tmp_path)
+
+
 def replace_recent_section(content, new_entries):
     """
     Replace everything from '### Recent Papers' to the end of the file
@@ -301,6 +363,12 @@ def parse_args():
         default=None,
         help="Output file path. Defaults to _pages/cv_pub.md in the repo.",
     )
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=DEFAULT_TIMEOUT,
+        help="HTTP timeout in seconds for ADS API calls (default: 30).",
+    )
     return parser.parse_args()
 
 
@@ -322,7 +390,16 @@ def main():
     cutoff = datetime.now() - timedelta(days=args.months * 30)
     print(f"Fetching papers from ADS (since {cutoff.strftime('%Y-%m')}) …")
 
-    papers = fetch_papers(token, cutoff)
+    if args.timeout <= 0:
+        print("Error: --timeout must be a positive integer.", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        papers = fetch_papers(token, cutoff, timeout=args.timeout)
+    except (requests.RequestException, RuntimeError, ValueError) as exc:
+        print(f"Error: Failed to fetch papers from ADS: {exc}", file=sys.stderr)
+        sys.exit(1)
+
     print(f"  Found {len(papers)} total results from ADS.")
 
     papers = filter_papers(papers)
@@ -352,8 +429,7 @@ def main():
     content = read_cv_pub(cv_pub_path)
     updated = replace_recent_section(content, section_md)
 
-    with open(cv_pub_path, "w", encoding="utf-8") as f:
-        f.write(updated)
+    write_text_atomic(cv_pub_path, updated)
 
     print(f"  Updated {cv_pub_path} with {len(papers)} recent papers.")
     print("  Done! Review the changes and commit when ready.")
