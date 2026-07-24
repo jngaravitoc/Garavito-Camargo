@@ -94,7 +94,7 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 14px;
-        right: math.div($spacing-unit, 2);
+        right: $spacing-unit / 2;
         text-align: right;
         display: block;
         min-height: auto;
@@ -148,7 +148,7 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: math.div($spacing-unit, 2);
+    margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
@@ -160,49 +160,49 @@
 .footer-col-wrapper {
     font-size: 16px;
     color: $grey-color;
-    margin-left: -#{math.div($spacing-unit, 2)};
+    margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: math.div($spacing-unit, 2);
-    padding-left: math.div($spacing-unit, 2);
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{math.div($spacing-unit, 2)}));
-    width:         calc(35% - (#{math.div($spacing-unit, 2)}));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{math.div($spacing-unit, 2)}));
-    width:         calc(20% - (#{math.div($spacing-unit, 2)}));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{math.div($spacing-unit, 2)}));
-    width:         calc(45% - (#{math.div($spacing-unit, 2)}));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{math.div($spacing-unit, 2)}));
-        width:         calc(50% - (#{math.div($spacing-unit, 2)}));
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{math.div($spacing-unit, 2)}));
-        width:         calc(100% - (#{math.div($spacing-unit, 2)}));
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{math.div($spacing-unit, 2)}));
-        width:         calc(100% - (#{math.div($spacing-unit, 2)}));
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
