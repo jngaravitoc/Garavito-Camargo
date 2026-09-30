@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Group
-permalink: /group/
+title: People
+permalink: /people/
 nav_order: 4
 ---
 
 ### Joining our group:
 
-I am currently accepting new students and postdocs to join my group at UC. If you are interested in joining as a master's or Ph.D. student, please apply to our [program](https://astro.uc.cl/en/doctorado-en-astrofisica/). The application deadline is typically at the end of July each year.
+I am currently accepting new students and postdocs to join my group at UC. If you are interested in joining as an UC undergraduate student please send me an email.  
+Prespective master's and Ph.D. students, please apply to our [program](https://astro.uc.cl/en/doctorado-en-astrofisica/). The application deadline is typically 
+at the end of July each year.
 
 If you are interested in joining as a postdoctoral researcher, please take a look at the fellowships and programs that are typically available each year:
 
@@ -26,9 +28,9 @@ Please contact me if you are interested in joining the group.
 - Dr. Silvio Varela (graduate student at Universidad de La Serena, now an ALMA postdoc at Universidad Técnica Federico Santa María). I am currently co-advising Silvio on a research project (paper in preparation).
 - [Arpit Arora](https://arpitarora.space/) (graduate student at the University of Pennsylvania). I co-advised Arpit on a series of papers for his Ph.D. thesis. See our papers [here](https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22Garavito-Camargo%22%20author%3A%22arora%22&sort=date%20desc%2C%20bibcode%20desc&p_=0).
 - [Hayden Foote](https://hfoote.github.io/) (graduate student at the University of Arizona). In Fall 2021, I co-advised Hayden on a research project in which he first proposed that the Segue 2 galaxy collided with the Cetus–Paca stream. This later led to [Foote et al., 2025](https://ui.adsabs.harvard.edu/abs/2025ApJ...979..171F/abstract).
-- Ludia Adhikary (undergraduate at CUNY), supervised through the AstroCOM CUNY/CCA program in New York City, Summer 2022–Summer 2023. Ludia presented her work at the CCA symposium and presented two posters: one at the SACNAS conference in 2022 and one at the Winter AAS meeting in 2023.
-- Stephanie Carolina Cely Rodriguez (undergraduate at Universidad Nacional de Colombia). I advised Stephanie during the RECA summer program in Summer 2022. She successfully graduated in Summer 2023. A talk from the RECA symposium can be watched [here](https://www.youtube.com/watch?v=5SeOW060m24&t=1774s).
-- [Andrew Eden](https://andrew-eden.com/) (undergraduate at Florida Institute of Technology), Fall 2022–Fall 2023. I advised Andrew on his undergraduate thesis project.
+- Ludia Adhikary (undergraduate at CUNY), supervised through the AstroCOM CUNY/CCA program in New York City, Summer 2022–Summer 2023. 
+- Stephanie Carolina Cely Rodriguez (undergraduate at Universidad Nacional de Colombia). RECA 2022 internship summer program. 
+- [Andrew Eden](https://andrew-eden.com/) (undergraduate at Florida Institute of Technology), Fall 2022–Fall 2023. 
 
 ## Close collaborators:
 
