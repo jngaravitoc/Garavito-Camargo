@@ -2,7 +2,6 @@
 layout: page
 title: Software
 permalink: /software/
-nav_order: 6
 toc: false
 ---
 
